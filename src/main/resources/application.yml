@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  cq:
+    plugin-list:
+      - net.lz1998.demo.plugin.HelloPlugin # 用于测试，私聊不管收到什么都回复hello
+      - net.lz1998.demo.plugin.StatusPlugin # 用于状态监控
+      - net.lz1998.demo.plugin.PrefixPlugin # 用于过滤不带有前缀的指令
+      - net.lz1998.demo.plugin.AuthPlugin # 授权插件
+      - net.lz1998.demo.plugin.SecurityPlugin # 用于页面注册，接受验证码
+      - net.lz1998.demo.plugin.WelcomePlugin # 入群欢迎插件
+      - net.lz1998.demo.plugin.LearnPlugin # 自定义学习插件
