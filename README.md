@@ -1,11 +1,11 @@
-# Spring-CQ-demo
+# Spring-CQ-web
 
 ## 简介
 这是Spring-CQ框架的一个demo，实现了基本的学习、入群欢迎功能，并提供移动端自适应的web控制页面方便查询机器人在线状态、管理学习内容、设置入群欢迎内容等。
 
 框架项目地址：https://github.com/lz1998/spring-cq
 
-前端项目地址：https://github.com/lz1998/spring-cq-demo-ui
+前端项目地址：https://github.com/lz1998/spring-cq-web-ui
 
 ## 项目环境
 - Java8
